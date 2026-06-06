@@ -1,0 +1,10 @@
+a=34
+#a=float(a)
+b=34.34
+c="krish"
+d="45.45"
+#d=float(d)
+print(int(b))
+print(float(a))
+print(float(d))
+print(int(float(d)))
