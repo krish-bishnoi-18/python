@@ -1,0 +1,6 @@
+t=(2,45,34,678,45,34,2,56,34,2)
+print(t.count(2))
+print(t.index(45))
+print(max(t))
+print(sum(t))
+print(min(t))
