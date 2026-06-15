@@ -1,7 +1,0 @@
-a="krish"
-b='krish2'
-c='''krish bishnoi 
-krish bisnoi2 
-krish bishnoi3
-'''
-print(a+"\n"+b+"\n"+c)
