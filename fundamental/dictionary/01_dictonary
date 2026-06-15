@@ -1,0 +1,12 @@
+marks = {
+    "krish": 34,
+    "someone else" : 45,
+    "hi" : 56,
+    "heloo" : 5346,
+    "list" : [1,2,3]
+
+}
+print(marks)
+print(marks["heloo"])
+print(marks["list"])
+
