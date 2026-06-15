@@ -1,0 +1,6 @@
+print("please entte the name of student and then roll number and then marks")
+a,b,c=input().split()
+b=int(b)
+c=float(c)
+day,month,year=map(int,input("plrase entre day month and year of you date of birth").split("-"))
+print("the name of student is ",a," the roll number of student is ",b," the marks of student is ",c,"date of birht",day,month,year)
