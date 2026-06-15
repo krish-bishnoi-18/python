@@ -1,0 +1,3 @@
+t1=(1,3,"krish",45.45)
+print(t1)
+print(t1[0])
