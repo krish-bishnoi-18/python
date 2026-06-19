@@ -1,0 +1,7 @@
+a=int(input("please entre the age of student"))
+if a>=18 and a<21:
+    print("you can vote ")
+elif a>=18 and a>=21 :
+    print("you can drive and vote")
+else : 
+    print("you cant dirve and vote")
