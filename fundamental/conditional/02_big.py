@@ -1,0 +1,10 @@
+a,b,c,d=input("please ntre the four number").split()
+l1=[a,b,c,d]
+e=max(l1)
+l1.remove(e)
+f=max(l1)
+l1.remove(f)
+g=max(l1)
+l1.remove(g)
+h=min(l1)
+print(e,f,g,h)
