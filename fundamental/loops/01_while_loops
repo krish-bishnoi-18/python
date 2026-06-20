@@ -1,0 +1,9 @@
+a,b=map(int,input("please entre the number of star in first row and last row ").split())
+i=a 
+while i<=b:
+    print("*"*i)
+    i=i+1
+i=a
+while i<=b:
+    print(" "*(b-i),"*"*(2*i-1))
+    i=i+1
