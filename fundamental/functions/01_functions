@@ -1,0 +1,8 @@
+def sum() :
+    a=int(input("please enter the value of a "))
+    b=int(input("please entre the value of b "))
+    sum=a+b
+    print(sum)
+
+sum()
+sum()
