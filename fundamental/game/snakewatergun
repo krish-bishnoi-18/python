@@ -1,0 +1,32 @@
+import random 
+computerchoice=random.choice([-1,0,1])
+mychoice=input("please entre you choice ")
+compdic ={
+    -1: "snake",
+    0:"water",
+    1: "gun",
+}
+mydic={
+    "snake":-1,
+    "water":0,
+    "gun": 1,
+}
+print(f"you chose {mychoice} and computer chose {compdic[computerchoice]}")
+my=mydic[mychoice]
+comp=computerchoice
+if (my==comp):
+    print("game is draw")
+else :
+    if comp==-1 and my==0:
+        print("computer won")
+    elif comp==-1 and my==1:
+        print("you won")
+    elif comp==0 and my ==-1:
+        print("you won")
+    elif comp==0 and my ==1:
+        print("computer won")
+    elif comp==1 and my==-1:
+        print("computer won")
+    elif comp==1 and my==0:
+        print("you won")
+    
