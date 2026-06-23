@@ -1,0 +1,5 @@
+a=input("please enter the name of file")
+b=input("please entre the contech you want to add in your file ")
+file=open(a,"w")
+file.write(b)
+file.close()

@@ -1,0 +1,10 @@
+file=open("krish.txt")
+line1=file.readline()
+print(line1)
+line2=file.readline()
+print(line2)
+line3=file.readline()
+print(line3)
+line4=file.readline()
+print(line4)
+
