@@ -1,0 +1,7 @@
+class student :
+    name = "krish"
+    roll = 13
+    marks=10.10
+print(student.marks,student.name,student.roll)
+student.marks=23
+print(student.marks,student.name,student.roll)
