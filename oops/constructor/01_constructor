@@ -1,0 +1,7 @@
+class student:
+    classes="9th"
+    def __init__(self):
+        self.name="krish"
+        self.roll=45
+        print(self.classes,self.name,self.roll)
+s1=student()
