@@ -1,0 +1,17 @@
+class student:
+    name="krish"
+    roll=13
+    marks=45.5
+class row (student):
+    fathername="something"
+class bench(row):
+    hieght=5.7
+s1=student()
+print(s1.name,s1.roll,s1.marks)
+student.age=45
+print(s1.name,s1.roll,s1.marks,s1.age)
+row.mothername="somethingkibiwi"
+print(row.name,row.roll,row.marks,row.age,row.fathername,row.mothername)
+print(bench.name,bench.roll,bench.marks,bench.age,bench.fathername,bench.mothername,bench.hieght)
+
+
